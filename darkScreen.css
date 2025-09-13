@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root{
+  --base-color: rgb(26, 26, 26);
+  --input-color: rgb(65, 65, 65);
+}
+
+.wrapper{
+  height: 45vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--base-color);
+  border-radius: 20px;
+  padding: 20px;
+  width: max(40%, 1000px);
+  margin: 40px auto;
+
+}
+
+.buyBoxImg {
+  width: 350px;
+  height: 350px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.buyBoxTitle {
+  font-size: 45px;
+  color: rgb(177, 177, 177);
+  font-family: calibri;
+  padding: 20px;
+  text-align: right;
+  justify-content: top;
+}
+
+.buyBoxPrice {
+  font-size: 20px;
+  color: rgb(163, 163, 163);
+  font-family: calibri;
+  padding: 5px;
+  text-align: right;
+  margin-top: auto;
+}
+
+body {
+  min-height: 100vh;
+  text-decoration: none;
+  background-color: rgb(36, 36, 36);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headings & text */
+h1, h2 {
+  font-size: 45px;
+  color: rgb(161, 161, 161);
+  font-family: calibri;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  color: rgb(163, 163, 163);
+  padding: 5px;
+  text-align: center;
+}
+
+/* Common container styling */
+header, section, footer {
+  background-color: #424242;
+  border-radius: 5px;
+  margin: 40px;
+  padding: 10px;
+  color: rgb(180, 180, 180);
+}
+
+.picOfSamira {
+  align-items: center;
+  width: 40%;
+  height: 40%;
+  border-radius: 15px;
+  display: block;        /* removes inline spacing */
+  margin: 1% 30%;
+}
+
+.contacts{
+  text-align: center;
+  padding: 35px 0px;
+  font-size: 25px;
+}
+
+.forSale{
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+header { 
+  color: rgb(107, 107, 107); 
+  padding: 20px; 
+  text-align: center;
+}
+
+section { 
+  text-align: center;
+  background-color: #111111; 
+  margin: 25px; 
+  padding: 5px; 
+}
+
+/* Buttons */
+button {
+  background: rgb(70, 70, 70);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  font-weight: bold;
+  color: inherit; /* takes text color from parent */
+  font-size: 30px;
+  color: rgb(177, 177, 177);
+  border-radius: 10px;
+  cursor: pointer; /* ensures hand cursor */
+}
+
+button:hover {
+  background-color: #2b2b2b;
+}
+
+/* Lists & links */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+li{
+  background: rgb(70, 70, 70);
+  color: gray;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+li:hover {
+  background-color: #2b2b2b;
+}
+
+a {
+  font-size: 30px;
+  background-color: azure;
+  color: rgb(177, 177, 177);
+  border-radius: 10px;
+  background: transparent;
+}
+
+/* Navbar */
+.navbar {
+  text-decoration: none;
+  background: #00000098;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-bar button { 
+    margin-left: 10px; 
+}
+
+/* Logo */
+.logo a {
+  margin: 0; 
+  padding: 0;
+  font-family: calibri;
+  font-size: 70px;
+  font-weight: 600;
+  color: rgb(173, 173, 173);
+}
+
+.footer {
+  margin: 0px;
+  background-color: #000000;   /* dark background */
+  color: rgb(173, 173, 173);             /* text color */
+  text-align: center;       /* center text */
+  padding: 20px;
+  margin-top: 40px;         /* space above footer */
+}
+
+.footer ul {
+  list-style: none;         /* remove bullets */
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 0px;                /* space between links */
+}
+
+.footer a {
+  color: #ddd;              /* lighter link color */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  color: #fff;              /* brighter on hover */
+}

@@ -6,11 +6,11 @@
 }
 
 :root{
-  --base-color: rgb(26, 26, 26);
+  --base-color: rgb(24, 24, 24);
   --text-color: rgb(160, 160, 160);
   --body-color: rgb(36, 36, 36);
-  --section-color: rgb(50, 50, 50);
-  --header-footer-color: rgb(40, 40, 40);
+  --section-color: rgb(24, 24, 24);
+  --header-footer-color: rgb(85, 85, 85);
 }
 
 .wrapper{
@@ -78,12 +78,27 @@ p {
 }
 
 /* Common container styling */
-header, footer {
+header a, footer, .footer {
   background-color: var(--header-footer-color);
   border-radius: 5px;
-  margin: 40px;
-  padding: 10px;
+  margin: 10px;
   color: var(--text-color);
+  padding: 10px; 
+  text-align: center;
+}
+
+.aboutText{
+  height: 25vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--base-color);
+  border-radius: 20px;
+  padding: 10px;
+  width: max(30%, 1000px);
+  margin: 30px auto;
 }
 
 .picOfSamira {
@@ -93,6 +108,36 @@ header, footer {
   border-radius: 15px;
   display: block;        /* removes inline spacing */
   margin: 1% 30%;
+}
+
+.aboutText{
+  height: 15vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--base-color);
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 5px auto;
+}
+
+.aboutText1 {
+  height: 25vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--base-color);
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
 }
 
 .contacts{
@@ -232,7 +277,7 @@ a {
 /* Navbar */
 .navbar {
   text-decoration: none;
-  background: #00000098;
+  background: #000000;
   padding: 15px;
   text-decoration: none;
 }
@@ -250,8 +295,8 @@ a {
   margin: 0; 
   padding: 0;
   font-family: calibri;
-  font-size: 70px;
-  font-weight: 600;
+  font-size: 65px;
+  font-weight: 500;
   color: rgb(173, 173, 173);
 }
 

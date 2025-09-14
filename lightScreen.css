@@ -69,9 +69,10 @@ h1, h2 {
   padding: 20px;
   text-align: center;
 }
+
 .backUp {
   background-color: var(--header-footer-color);
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 10px;
   color: var(--text-color);
   padding: 10px; 
@@ -82,7 +83,7 @@ h1, h2 {
 
 .backUp1 {
   background-color: var(--header-footer-color);
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 10px;
   color: var(--text-color);
   padding: 5px; 

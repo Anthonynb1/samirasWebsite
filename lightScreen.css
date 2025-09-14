@@ -6,11 +6,11 @@
 }
 
 :root{
-  --base-color: rgb(133, 133, 133);
-  --text-color: rgb(0, 0, 0);
-  --body-color: rgb(201, 201, 201);
-  --section-color: rgb(50, 50, 50);
-  --header-footer-color: rgb(100, 100, 100);
+  --base-color: rgb(122, 61, 117);
+  --text-color: rgb(255, 255, 255);
+  --body-color: rgb(231, 231, 231);
+  --section-color: rgb(137, 0, 165);
+  --header-footer-color: rgb(255, 100, 221);
 }
 
 .wrapper{
@@ -25,7 +25,6 @@
   padding: 20px;
   width: max(40%, 1000px);
   margin: 40px auto;
-
 }
 
 .buyBoxImg {
@@ -70,6 +69,27 @@ h1, h2 {
   padding: 20px;
   text-align: center;
 }
+.backUp {
+  background-color: var(--header-footer-color);
+  border-radius: 5px;
+  margin: 10px;
+  color: var(--text-color);
+  padding: 10px; 
+  text-align: center;
+  width: max(70%, 300px);
+  margin: 40px auto;
+}
+
+.backUp1 {
+  background-color: var(--header-footer-color);
+  border-radius: 5px;
+  margin: 10px;
+  color: var(--text-color);
+  padding: 5px; 
+  text-align: center;
+  width: max(60%, 300px);
+  margin: 45px auto;
+}
 
 p {
   color: var(--text-color);
@@ -78,13 +98,43 @@ p {
 }
 
 /* Common container styling */
-header, footer, .footer {
+header a, footer, .footer {
   background-color: var(--header-footer-color);
   border-radius: 5px;
   margin: 10px;
   color: var(--text-color);
   padding: 10px; 
   text-align: center;
+}
+
+.aboutText{
+  height: 15vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--base-color);
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 5px auto;
+}
+
+.aboutText1 {
+  height: 25vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--base-color);
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0px auto;
 }
 
 .picOfSamira {
@@ -124,18 +174,18 @@ section {
 }
 
 button:hover {
-  background-color: #2b2b2b;
+  background-color: #470038;
 }
 
 ul li a:hover {
-  background-color: #2b2b2b;
+  background-color: #470038;
 }
 
 ul li button, ul li a {
   display: block;
   width: 100%;
-  background: rgb(70, 70, 70);
-  color: rgb(177, 177, 177);
+  background: rgba(118, 0, 129, 0.589);
+  color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: bold;
   border-radius: 10px;
@@ -225,7 +275,6 @@ ul {
 a {
   font-size: 30px;
   background-color: azure;
-  color: rgb(177, 177, 177);
   border-radius: 10px;
   background: transparent;
 }
@@ -251,9 +300,9 @@ a {
   margin: 0; 
   padding: 0;
   font-family: calibri;
-  font-size: 70px;
-  font-weight: 600;
-  color: rgb(173, 173, 173);
+  font-size: 65px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
 }
 
 .footer {

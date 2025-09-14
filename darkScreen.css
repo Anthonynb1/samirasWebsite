@@ -71,6 +71,28 @@ h1, h2 {
   text-align: center;
 }
 
+.backUp {
+  background-color: var(--header-footer-color);
+  border-radius: 15px;
+  margin: 10px;
+  color: var(--text-color);
+  padding: 10px; 
+  text-align: center;
+  width: max(70%, 300px);
+  margin: 40px auto;
+}
+
+.backUp1 {
+  background-color: var(--header-footer-color);
+  border-radius: 15px;
+  margin: 10px;
+  color: var(--text-color);
+  padding: 5px; 
+  text-align: center;
+  width: max(60%, 300px);
+  margin: 45px auto;
+}
+
 p {
   color: var(--text-color);
   padding: 5px;

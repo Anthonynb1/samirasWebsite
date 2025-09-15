@@ -8,7 +8,7 @@
 :root{
   --base-color: rgb(122, 61, 117);
   --text-color: rgb(255, 255, 255);
-  --body-color: rgb(231, 231, 231);
+  --body-color: rgba(0, 0, 0, 0.219);
   --section-color: rgb(137, 0, 165);
   --header-footer-color: rgb(255, 100, 221);
 }
@@ -55,10 +55,22 @@
 }
 
 body {
+  position: relative;
+  background-image: url('pictures/brownieBackground.jpg');
+  background-size: cover;         /* or 'contain' */
+  background-repeat: no-repeat;
+  background-position: center center;
   min-height: 100vh;
   text-decoration: none;
-  background-color: var(--body-color);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0 */
+  background: var(--body-color); /* fallback rgba */
+  z-index: -1; /* sit behind content */
 }
 
 /* Headings & text */
@@ -328,3 +340,4 @@ a {
   text-decoration: none;
   font-size: 14px;
 }
+
